@@ -99,7 +99,7 @@
                         <td colspan="2"><strong>Minuta recibida</strong><br />' + (feature.properties['Minutas Estrategia 115 02-05-2022_Minutas Recibidas'] !== null ? autolinker.link(feature.properties['Minutas Estrategia 115 02-05-2022_Minutas Recibidas'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Minutas Estrategia 115 02-05-2022_Estatus'] !== null ? autolinker.link(feature.properties['Minutas Estrategia 115 02-05-2022_Estatus'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>QR Entregado</strong><br />' + (feature.properties['Minutas Estrategia 115 02-05-2022_Estatus'] !== null ? autolinker.link(feature.properties['Minutas Estrategia 115 02-05-2022_Estatus'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
